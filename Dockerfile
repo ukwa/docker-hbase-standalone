@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM openjdk:8
 MAINTAINER Cogniteev <tech@cogniteev.com>
 
 ENV HBASE_VERSION=1.1.2
