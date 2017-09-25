@@ -1,7 +1,7 @@
 FROM openjdk:8
 MAINTAINER Cogniteev <tech@cogniteev.com>
 
-ENV HBASE_VERSION=1.1.2
+ENV HBASE_VERSION=1.1.12
 
 RUN groupadd -r hbase && useradd -m -r -g hbase hbase
 
@@ -11,7 +11,7 @@ ENV HOME=/home/hbase
 # Download'n extract hbase
 RUN cd /home/hbase && \
     wget -O - -q \
-    http://apache.mesi.com.ar/hbase/hbase-${HBASE_VERSION}/hbase-${HBASE_VERSION}-hadoop2-bin.tar.gz \
+    http://mirror.ox.ac.uk/sites/rsync.apache.org/hbase/${HBASE_VERSION}/hbase-${HBASE_VERSION}-bin.tar.gz \
     | tar --strip-components=1 -zxf -
 
 # Upload local configuration

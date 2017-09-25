@@ -1,6 +1,6 @@
 ## Docker HBase Standalone Dockerfile
 
-This repository contains **Dockerfile** of [Hbase 0.98.10](http://hbase.apache.org/) for [Docker](https://www.docker.com/) [automated build](https://registry.hub.docker.com/u/cogniteev/hbase-standalone/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+This repository contains **Dockerfile** of [Hbase 1.1.12](http://hbase.apache.org/) for [Docker](https://www.docker.com/) [automated build](https://registry.hub.docker.com/u/cogniteev/hbase-standalone/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ### Base Docker Image
 
