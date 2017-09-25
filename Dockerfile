@@ -1,7 +1,7 @@
 FROM dockerfile/java:oracle-java8
 MAINTAINER Cogniteev <tech@cogniteev.com>
 
-ENV HBASE_VERSION=0.98.10
+ENV HBASE_VERSION=1.1.2
 
 RUN groupadd -r hbase && useradd -m -r -g hbase hbase
 
